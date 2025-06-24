@@ -13,7 +13,7 @@ namespace BuggyDemoConsole.Models
 
     public class Bar
     {
-        public Baz Baz { get; set; }
+    public Baz Baz { get; set; } = new Baz(); // Initialize Baz here
     }
 
     public class Baz
